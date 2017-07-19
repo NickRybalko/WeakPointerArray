@@ -15,7 +15,6 @@ import Foundation
 ///So objects may be destroyed even if array has references to them.
 
 public struct WeakPointerArray<Element: AnyObject>: RandomAccessCollection, MutableCollection {
-
     fileprivate var storage: [Weak<Element>]
 
     // MARK: RandomAccessCollection

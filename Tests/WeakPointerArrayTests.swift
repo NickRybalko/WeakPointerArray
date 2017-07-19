@@ -7,12 +7,13 @@
 //
 
 import XCTest
+
 @testable import WeakPointerArray
 
-class WeakTestObject {
+private final class WeakTestObject {
 }
 
-class WeakPointerArrayTests: XCTestCase {
+final class WeakPointerArrayTests: XCTestCase {
     
     func testRemoveOneElement() {
         var testData = makeTestData()
