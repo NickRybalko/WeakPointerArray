@@ -344,10 +344,12 @@
 				TargetAttributes = {
 					186795991F1F745200BE1068 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					186795A11F1F745200BE1068 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1890D1901F1F574200D33D55 = {
@@ -540,7 +542,8 @@
 				PRODUCT_NAME = WeakPointerArray;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -561,7 +564,8 @@
 				PRODUCT_NAME = WeakPointerArray;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -576,7 +580,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NickRybalko.WeakPointerArray-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Debug;
@@ -590,7 +595,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NickRybalko.WeakPointerArray-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Release;
